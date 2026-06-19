@@ -1,0 +1,13 @@
+modules = ["python-3.12"]
+run = "python ./keeta-raid-bot/main.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "./start.sh"]
+deploymentTarget = "gce"
+ignorePorts = true
+
+[agent]
+expertMode = true

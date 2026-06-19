@@ -1,0 +1,7 @@
+discord.py-self @ git+https://github.com/dolfies/discord.py-self.git@71609f4f62649d18bdf14f0e286b7e62bc605390
+requests
+aiohttp==3.7.4.post0
+cloudscraper
+web3
+tweepy
+playwright
